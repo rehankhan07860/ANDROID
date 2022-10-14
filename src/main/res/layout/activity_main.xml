@@ -6,33 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="361dp"
-        android:layout_height="250dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="24dp"
-        android:text="WEL COME MY APP"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_width="352dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="16dp"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="158dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="126dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="127dp"
-        android:layout_marginBottom="286dp"
-        android:text="SharApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <TimePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
