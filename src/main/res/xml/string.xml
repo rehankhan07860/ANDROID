@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <resources>
+        <string name="app_name">AlertDialog</string>
+        <string name="dialog_message">Welcome to Alert Dialog</string>
+        <string name="dialog_title">KhanBhai Alert Dialog</string>
+    </resources>
+
+</PreferenceScreen>
